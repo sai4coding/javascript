@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<h1>>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Display data in different ways</h1>
+    <h2>using innerHTML</h2>
+    <p id="js">Hello</p>
+    <button type="button" onclick='document.getElementById("js").innerHTML="hi"'>click</button>
+    <p id="hi">hi</p>
+    <button type="button" onclick='document.getElementById("hi").document.write("hello")'>click me</button>
+</body>
+</html>
