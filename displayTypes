@@ -12,5 +12,12 @@
     <button type="button" onclick='document.getElementById("js").innerHTML="hi"'>click</button>
     <p id="hi">hi</p>
     <button type="button" onclick='document.getElementById("hi").document.write("hello")'>click me</button>
+
+<script>
+    document.body.innerHTML="how are you";
+
+    
+
+</script>
 </body>
 </html>
