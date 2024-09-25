@@ -85,3 +85,63 @@ else{
     console.log("not a number")
 }
 */
+
+
+/*
+let table=prompt("enter table")
+for(let  i=1;i<=10;i++){
+    console.log(table*i)
+}
+*/
+
+function multi(a,b){
+    return a*b
+}
+
+console.log(multi(2,3))
+
+function multi(a,b){
+    let product=a*b
+    return product
+}
+
+console.log(multi(4,5))
+
+
+//ananomous function 
+
+let z=function(x){
+    
+    if (x>0){
+          return "ok"
+    }
+    else{
+        return "not ok"
+    }
+}
+
+console.log(z(0))
+
+
+
+let r=()=>{
+    return 9-2
+}
+
+console.log(r())
+
+
+function compare(){
+    let a=prompt(parseInt("enter number"))
+    let b=prompt(parseInt("enter number"))
+       if(a>b){
+        return  a +"is bigger than" +b
+       }
+       else if(a<b){
+            return b +"is bigger than" +a
+       }
+       else{
+        return "nothing"
+       }
+}
+console.log(compare())
