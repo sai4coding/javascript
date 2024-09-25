@@ -43,3 +43,45 @@ let num1=21
  let num2=num1.toString()
 console.log(typeof(num2))
 console.log(num1.toString(2))
+
+//let age=prompt("enter your age")
+//let reqiredAge=18-age
+/*
+if(age>=18){
+    alert("you are eligible to vote ")
+
+}
+else{
+    alert("you are not eligible to vote and you need" +(reqiredAge) +(" more years to become voter"))
+}
+
+*/
+/*
+if(age==18 || age>18){
+    console.log("ok")
+}
+else{
+    console.log("not ok")
+}
+
+*/
+/*
+let number=prompt("enter number")
+if(number>0 &&number%2==0){
+    console.log("number is even")
+  
+}
+else if(number >0 && number%2!=0){
+    console.log("number is odd number ")
+}
+else if(number<0){
+   console.log("negative number")
+}
+else if(number==0){
+    console.log("equal to zero")
+
+}
+else{
+    console.log("not a number")
+}
+*/
