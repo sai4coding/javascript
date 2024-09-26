@@ -145,3 +145,23 @@ function compare(){
        }
 }
 console.log(compare())
+
+
+
+
+
+let arr=[1,2,3]
+console.log(arr)
+/*
+let arr2={}
+for(let i=0;i<2;i++){
+    let values=prompt("enter values")
+    arr2[i]=values
+}
+console.log(arr2)
+*/
+console.log(arr.length)
+console.log(arr.toString())
+let str=['hi','hello','naga','sai']
+
+console.log(str.slice(2))
