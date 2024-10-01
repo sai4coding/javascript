@@ -1,0 +1,53 @@
+let ob={
+    name:'sai',
+    age:23,
+    city:'hyd'
+
+}
+console.log(ob.name) // accessing through dot notation
+console.log(ob['age']) // through bracket notation
+console.log(ob.city)
+ob.age=24;
+console.log(ob.age)
+ob.gender='male';
+console.log(ob)
+
+
+let car={}
+car.comapny='tata';
+car.color='blue';
+car.model='a231';
+car.service=true;
+car.price=120000.00
+console.log(typeof(car))
+console.log(car)
+car.fun=function(){
+    return "are you ready to buy the car"
+
+}
+console.log(car.fun())
+delete car.model; //  delete the key/property 
+console.log(car)
+
+
+//iterating or looping the object through for in
+
+for(let i in car){
+    console.log(i + ": " +car[i]);
+}
+//methods
+console.log(Object.keys(car))
+console.log(Object.values(car))
+console.log(Object.entries(car))
+
+//this keyword
+
+let movie={
+    title:"saaho",
+    hero:"prabhas",
+    director:"sujeeth",
+    fun:function names(){
+        console.log(this.title)// if dont use this , it gives error
+    }
+};
+movie.fun()
