@@ -1,0 +1,10 @@
+let a=document.getElementById('one');
+console.log(a);
+let b=document.getElementsByClassName("o");
+console.log(b)
+console.log(document.getElementsByTagName("h2"));
+console.log(document.querySelector(".c"))
+console.log(document.querySelectorAll(".c"))
+
+let val=document.getElementById('p');
+console.log(val.innerHTML="yala unav")
