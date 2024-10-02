@@ -165,3 +165,16 @@ console.log(arr.toString())
 let str=['hi','hello','naga','sai']
 
 console.log(str.slice(2))
+
+
+//Math 
+
+let a;
+console.log(Math.floor(Math.random(a)*10000)); // to generate random 4 digits number
+
+
+let a=12.5;
+console.log(Math.floor(a)); //12
+console.log(Math.ceil(a)); //13
+let b=-5;
+console.log(Math.abs(b)); //5
