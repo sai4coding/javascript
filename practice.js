@@ -178,3 +178,39 @@ console.log(Math.floor(a)); //12
 console.log(Math.ceil(a)); //13
 let b=-5;
 console.log(Math.abs(b)); //5
+
+
+
+//destructuring
+let arr=[1,2,3,4,5]
+let [a,b,c,d,e]=[1,2,3,4,5]
+console.log(a)
+console.log(d)
+
+
+//ternary
+let age=12;
+(age>18) ? console.log("ok") : console.log("not ok")
+
+let a=12;
+let b=(a>10) ? 'a is greater than 10' : 'a is not greater than 10'
+console.log(b)
+
+let arr=[1,2,3,4,5]
+console.log(...arr)  // spread
+
+console.log(Math.max(...arr))
+let max=Math.max(...arr);
+let min=Math.min(...arr);
+console.log(max +" " +min)
+console.log(Math.abs(min-max))
+let arr2=[5,6,7]
+console.log(arr2)
+console.log(...arr, ...arr2 )
+
+function name(...z){  // rest
+    console.log(z)
+    console.log(...z) // spread
+}
+name('sai','naga','nivas')
+
