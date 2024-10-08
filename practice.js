@@ -214,3 +214,30 @@ function name(...z){  // rest
 }
 name('sai','naga','nivas')
 
+
+const a=12;
+if(a>10){
+  a++;
+}
+console.log(a);// type arror
+
+var a=12;
+if(a>10){
+  a++;
+}
+console.log(a); //13
+
+
+function name(){
+  console.log("nagasai");// nomral function
+}
+name();
+   // arrow functions
+const names=()=> "hello sai";
+console.log(names());
+
+const sum=(a,b)=>a+b;
+console.log(sum(2,3));
+
+
+
