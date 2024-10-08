@@ -240,4 +240,23 @@ const sum=(a,b)=>a+b;
 console.log(sum(2,3));
 
 
+let arr1=[1,2,3];
+let arr2=[...arr1,4,5,6,7];
+console.log(arr1);
+console.log(arr2);
+
+let details={
+  name:'sai',
+  age:23,
+}
+
+let college={
+  ...details,
+  clg:'qis',
+  rollNo:'21491a4463',
+}
+
+console.log(college);
+
+
 
