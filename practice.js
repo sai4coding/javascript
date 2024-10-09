@@ -264,3 +264,25 @@ let arr=[1,2,3,4,5];
 arr.map((i)=>console.log(i));
 let filtered=arr.filter((i)=>i>2);
 console.log(filtered);
+
+arr=[1,2,3,4,5]
+let sqArray=arr.map((i)=>console.log(i*i))
+
+names=['naga','sai','nivas']
+let uppercaseNames=names.map((name)=>name.toUpperCase());
+console.log(uppercaseNames);
+
+let usernames=[
+  {fi:'naga',
+  la:'sai'},
+  
+  {fi:'nadendla',
+  la:'teja'}
+];
+
+console.log(usernames)
+let firstNames=usernames.map(fn=>fn.fi);
+console.log(firstNames);
+let [n1,n2]=firstNames;
+console.log(`hello ${n1}`);
+console.log(` hello ${n2}`);
