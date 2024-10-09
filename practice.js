@@ -260,3 +260,7 @@ console.log(college);
 
 
 
+let arr=[1,2,3,4,5];
+arr.map((i)=>console.log(i));
+let filtered=arr.filter((i)=>i>2);
+console.log(filtered);
