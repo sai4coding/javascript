@@ -49,3 +49,14 @@ console.log(pa);
  let de=document.getElementById('de');
  de.textContent="hello how are you";
  de.body.appendChild(de);
+
+
+let tt=document.createElement('title');
+tt.innerHTML="doc";
+document.title=tt.innerHTML
+
+
+function change(){
+       let fu=document.getElementById('one');
+       fu.textContent="hello";
+    }
