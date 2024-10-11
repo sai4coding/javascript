@@ -8,3 +8,44 @@ console.log(document.querySelectorAll(".c"))
 
 let val=document.getElementById('p');
 console.log(val.innerHTML="yala unav")
+
+
+let a=document.getElementById('first');
+console.log(a);
+
+let pa=document.getElementById('p');
+console.log(pa);
+
+ let us=document.getElementsByName('username');
+ console.log(us);
+
+ let t=document.getElementsByTagName('p');
+ console.log(t);
+
+
+ let di=document.getElementsByClassName('d');
+ console.log(di)
+//let dii=document.getElementById('one');
+ //let co=dii.querySelectorAll('.msg');
+ //console.log(co);
+
+ let h=document.createElement('h1');
+ console.log(h);
+ h.innerHTML="hello "
+ document.body.appendChild(h)
+
+ let div=document.createElement('div');
+ div.innerHTML="<h1>he</h1>";
+ div.innerHTML="<p>how are you</p>"
+
+ document.body.appendChild(div);
+ console.log(div);
+
+ let list=document.getElementById('li');
+ let li=document.createElement('li')
+ li.innerHTML="help"
+ list.appendChild(li);
+
+ let de=document.getElementById('de');
+ de.textContent="hello how are you";
+ de.body.appendChild(de);
