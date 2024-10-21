@@ -60,3 +60,8 @@ function change(){
        let fu=document.getElementById('one');
        fu.textContent="hello";
     }
+
+
+function fun(){
+    document.getElementById('para').innerHTML="baguna";
+}
