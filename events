@@ -1,5 +1,9 @@
 let x=document.getElementById('val');
 let y=document.getElementById('value');
+let l=document.getElementById('log');
+
 x.addEventListener('click',function(){
     console.log(y.value);
+    l.innerText="login successfull";
+
 })
