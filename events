@@ -1,0 +1,5 @@
+let x=document.getElementById('val');
+let y=document.getElementById('value');
+x.addEventListener('click',function(){
+    console.log(y.value);
+})
