@@ -1,0 +1,28 @@
+try{
+    console.log(a+b);
+}
+
+catch(e){
+    //console.log("code contains some errors");
+}
+
+//with throw block
+
+try{
+    throw new error();
+
+
+}
+catch(e){
+    console.log("code contains some errors");
+}
+
+Here are some of the most common errors in JavaScript: 
+
+ReferenceError 
+
+SyntaxError 
+
+TypeError 
+
+RangeError
