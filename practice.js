@@ -286,3 +286,13 @@ console.log(firstNames);
 let [n1,n2]=firstNames;
 console.log(`hello ${n1}`);
 console.log(` hello ${n2}`);
+
+
+let x=document.getElementsByClassName('container');
+for(let i of x){
+    i.addEventListener('click',function(variable){
+        let val=variable.target.innerText;
+        alert('you clicked' +" "+val +" button");
+
+    })
+}
