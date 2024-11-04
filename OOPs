@@ -1,0 +1,64 @@
+oop is a programing paradigms . organizing our code around objects and methods
+functions inside the onjects are the methods 
+we can access the variables , methods using .(dot operator)
+
+//code
+let obj={
+    name:'sai',
+    age:23,
+    major:true,
+   rightToVote(){
+        if(obj.age>18){                   //here we can use this.age also instead of objectName.varable , because this is a keyword which refers to current object  
+            console.log("Right to vote!")
+        }
+        else{
+            console.log("wait for few more years dude ")
+        }
+    }
+}
+console.log(obj.name) //sai
+console.log(obj.age)  //23
+console.log(obj.major) //true
+obj.rightToVote() //Right to vote
+
+//class 
+class is blue print to build new objects 
+in js any class is built using the class keyword , followed by name of the class with Captial letter
+
+//constructor
+In JavaScript, a constructor is a special function used to create and initialize objects. Constructors are typically used with classes (introduced in ES6) or with function constructors (the older way). The main purpose of a constructor is to set up initial properties and methods for an object when it’s created.
+
+1. Constructor in Classes
+When using JavaScript classes, the constructor method is a special method within the class that’s called when an instance of the class is created. It’s used to initialize the object's properties.
+
+class Details{
+    constructor(name,age,gender){   //here name,age,gender are the parameters
+        this.name=name;
+        this.age=age;
+        this.gender=gender;
+    }
+    welcomeGreetings(){
+        console.log(`Hello ${this.name} `);
+    }
+    eligibleToVote(){
+        if(this.age>18){
+            console.log(`${this.name} you are eligible to vote`)
+        }
+        else{
+          console.log(`${this.name} you are not eligible to vote`)
+
+        }
+    }
+}
+let person1=new Details('sai',23,'male');   //the values are  arguments 
+let person2=new Details('naga',17,'male');
+console.log(person1);
+console.log(person1.name); 
+console.log(person1.age);
+console.log(person1.gender);
+person1.welcomeGreetings();
+person1.eligibleToVote();   
+person2.eligibleToVote();
+
+//OOPs principles 
+inheritence , encapsulation , abstraction and polymorphism   
