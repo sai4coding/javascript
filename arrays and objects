@@ -1,0 +1,3 @@
+destructuring means copying the items, which then becomes independent of the orginal
+
+an object is not iterable.  , an array is iteratable
