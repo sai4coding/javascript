@@ -62,3 +62,5 @@ person2.eligibleToVote();
 
 //OOPs principles 
 inheritence , encapsulation , abstraction and polymorphism   
+The super keyword allows me to "borrow" functionality from a super-class, in a sub-class.
+we use extend keyword to extend properties of superclass to sub class
