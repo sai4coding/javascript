@@ -62,5 +62,39 @@ person2.eligibleToVote();
 
 //OOPs principles 
 inheritence , encapsulation , abstraction and polymorphism   
+
+
+class Student{
+    constructor(rollNo,name,grade){
+        this.rollNo=rollNo;
+        this.name=name;
+        this.grade=grade;
+    }
+    writeExam(){
+        return `${this.name} your exam is sheduled`
+    }
+    
+    checkGrades(){
+        return `${this.name} check your grades`
+    }
+    
+    graduation(){
+        if(this.grade=='A+'){
+            
+            console.log('Graduated')
+            
+        }
+        else{
+            console.log('Not graduated')
+        }
+    }
+}
+
+let student1= new Student(63,'naga','A+')
+let student2=new Student(64,'sai','A')
+console.log(student1.grade)
+console.log(student1.writeExam())
+console.log(student2.checkGrades())
+student2.graduation()
 The super keyword allows me to "borrow" functionality from a super-class, in a sub-class.
 we use extend keyword to extend properties of superclass to sub class
